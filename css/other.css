@@ -1,0 +1,187 @@
+.animate2 {
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: cool2 1s linear forwards;
+  animation-timeline: view();
+  animation-delay: 1s;
+  animation-timing-function: ease-in-out;
+  /* animation-duration: 5s; */
+  animation-range: entry 0% cover 50%;
+  transition: 1s;
+}
+
+.animate22 {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: 1s;
+  animation: cool22 1s linear forwards;
+  /* animation-timeline: view(); */
+  animation-delay: 1s;
+  animation-timing-function: ease-in-out;
+  /* animation-duration: 5s; */
+  animation-range: entry 0% cover 50%;
+}
+
+.progress::after {
+  animation: load linear forwards;
+  animation-delay: 1s;
+  animation-timeline: view();
+  animation-timing-function: ease-in-out;
+  /* animation-duration: 5s; */
+  animation-range: entry 0% cover 40%;
+}
+
+.progress1::after {
+  animation: load2 linear forwards;
+  animation-delay: 1.5s;
+  animation-timeline: view();
+  animation-timing-function: ease-in-out;
+  /* animation-duration: 5s; */
+  animation-range: entry 0% cover 40%;
+}
+
+.progress3::after {
+  animation: load3 5s linear forwards;
+  animation-delay: 2s;
+  animation-timeline: view();
+  animation-timing-function: ease-in-out;
+  /* animation-duration: 5s; */
+  animation-range: entry 0% cover 40%;
+}
+
+.progress4::after {
+  animation: load4 5s linear forwards;
+  animation-delay: 2.5s;
+  animation-timeline: view();
+  animation-timing-function: ease-in-out;
+  /* animation-duration: 5s; */
+  animation-range: entry 0% cover 40%;
+}
+
+.progress5::after {
+  animation: load5 5s linear forwards;
+  animation-delay: 3s;
+  animation-timeline: view();
+  animation-timing-function: ease-in-out;
+  /* animation-duration: 5s; */
+  animation-range: entry 0% cover 40%;
+}
+
+.progress6::after {
+  animation: load6 5s linear forwards;
+  animation-delay: 3.5s;
+  animation-timeline: view();
+  animation-timing-function: ease-in-out;
+  /* animation-duration: 5s; */
+  animation-range: entry 0% cover 40%;
+}
+
+.progress7::after {
+  animation: load7 5s linear forwards;
+  animation-delay: 4s;
+  animation-timeline: view();
+  animation-timing-function: ease-in-out;
+  /* animation-duration: 5s; */
+  animation-range: entry 0% cover 40%;
+}
+
+.try {
+  background-image: url(../image/try.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.try2 {
+  background-image: url(../image/timeless.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.try3 {
+  background-image: url(../image/broker.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.try4 {
+  background-image: url(../image/wave.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@keyframes cool2 {
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes cool22 {
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes load {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 88%;
+  }
+}
+
+@keyframes load2 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes load3 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes load4 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes load5 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes load6 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes load7 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
