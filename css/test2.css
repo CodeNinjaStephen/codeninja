@@ -1,0 +1,25 @@
+.user-text {
+  display: none;
+}
+
+.user-text.active-text {
+  display: block;
+  transition: 1s;
+  animation: cool 2s forwards ease-in-out;
+}
+
+.user-pic.active-pic {
+  width: 45px;
+  height: 45px;
+  border: 2px solid rgb(124, 212, 239);
+  padding: 5px;
+}
+
+@keyframes cool {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

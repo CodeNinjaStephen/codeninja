@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/output.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/other.css" />
+    <link rel="stylesheet" href="css/test2.css" />
+    <link rel="stylesheet" href="css/aos-master/dist/aos.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <!-- header  -->
+    <header
+      class="flex md:-full fixed md:overflow-hidden z-[100] mx-auto bg-slate-800 px-[30px] items-center justify-between w-full h-[65px]"
+    >
+      <span
+        class="md:w-[15%] text-white font-extrabold text-xl text-center cursor-pointer w-[25%] py-[15px] h-[60px]"
+        >Code<span class="text-sky-400">Ninja.</span></span
+      >
+      <nav
+        class="nav_links md:static md:min-h-fit h-screen md:w-auto md:items-center md:bg-transparent flex md:flex-row lg:bg-transparent bg-slate-800 w-full duration-[0.5s] md:z-0 z-[100] text-start py-[15px] flex-col absolute top-[0%] left-[-100%]"
+      >
+        <div class="lg:hidden text-end text-lg px-[15px] sm:block md:hidden">
+          <span class="" onclick="onToggleMenu(this)"
+            ><ion-icon
+              class="text-white font-bold text-xl align-middle"
+              name="close-outline"
+            ></ion-icon
+          ></span>
+        </div>
+        <a
+          onclick="onToggleMenu(this)"
+          class="px-[15px] font-serif text-[14px] hover:text-white mx-[10px] duration-[1s] text-sky-400 rounded py-[15px]"
+          href=""
+          >Home</a
+        >
+        <a
+          onclick="onToggleMenu(this)"
+          class="px-[15px] font-serif text-[14px] hover:text-sky-400 duration-[1s] text-white rounded py-[15px] mx-[10px]"
+          href="#service"
+          >Menu</a
+        >
+        <a
+          onclick="onToggleMenu(this)"
+          class="px-[15px] font-serif text-[14px] hover:text-sky-400 duration-[1s] text-white rounded py-[15px] mx-[10px]"
+          href=""
+          >About</a
+        >
+        <a
+          class="px-[15px] font-serif text-[14px] hover:text-sky-400 duration-[1s] text-white rounded py-[15px] mx-[10px]"
+          href=""
+          >Cart</a
+        >
+      </nav>
+      <a
+        href=""
+        class="w-[130px] text-center shadow-md shadow-sky-200 font-bold font-mono bg-sky-400 rounded-full cursor-pointer px-[10px] text-white py-[8px] hover:bg-white hover:text-black duration-[1s]"
+      >
+        Contact Me
+      </a>
+      <div class="lg:hidden sm:block md:hidden">
+        <span onclick=" onToggleMenu(this)"
+          ><ion-icon
+            class="text-white font-bold text-xl align-middle"
+            name="menu-outline"
+          ></ion-icon
+        ></span>
+      </div>
+    </header>
+    <!-- header-ends  -->
+    <section class="bg-slate-800 pt-[120px] h-screen w-full">
+      <div class="lg:w-[90%] lg:flex w-[95%] mx-auto">
+        <div class="w-full lg:w-[50%]">
+          <h1 class="text-white text-5xl animate font-extrabold">
+            Okwa Stephen.
+          </h1>
+          <p class="text-white animate font-semibold py-[10px]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit .
+          </p>
+          <p class="text-white animate font-light py-[10px] text-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            architecto pariatur commodi praesentium, minima dolore aperiam sit
+            rem expedita laboriosam itaque placeat enim voluptates libero.
+            Aspernatur cumque deleniti voluptatibus fugit quasi impedit,
+            corrupti ducimus ab unde itaque nisi suscipit quas illo saepe
+            molestiae dignissimos enim ipsum totam excepturi officiis vitae
+            repudiandae? Placeat ea, ratione iusto delectus error vero at
+            adipisci?
+          </p>
+          <div class="mt-[20px]">
+            <button
+              class="w-[130px] animate text-center shadow-md shadow-sky-200 font-bold font-mono bg-sky-400 rounded-full cursor-pointer px-[10px] text-white py-[8px] hover:bg-white hover:text-black duration-[1s]"
+            >
+              Contact Me
+            </button>
+          </div>
+        </div>
+        <div class="w-full lg:w-[50%]">
+          <img
+            class="scale-110 animate lg:pt-0 pt-[30px]"
+            src="image/software_devlopment.gif"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section id="service" class="bg-slate-900 pt-[50px] p-[20px] w-full">
+      <div class="lg:w-[90%] lg:flex w-[95%] mx-auto">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="2000"
+          class="w-full lg:w-[50%] pt-[30px]"
+        >
+          <h2 class="text-white font-bold text-3xl">
+            My <span class="text-sky-400">Services</span>
+          </h2>
+          <p class="text-white text-[14px] font-light">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum,
+            itaque, consequuntur sint, dolor sed velit ducimus assumenda
+            excepturi incidunt optio eaque quis voluptates iste temporibus
+            quaerat ullam cupiditate fugiat nemo.
+          </p>
+          <p class="text-white text-[14px] py-[10px] font-light">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit alias
+            deleniti praesentium asperiores hic omnis quibusdam molestiae
+            voluptates voluptatibus facere!
+          </p>
+
+          <div class="mt-[20px]">
+            <button
+              class="w-[130px] text-center shadow-md shadow-sky-200 font-bold font-mono bg-sky-400 rounded-full cursor-pointer px-[10px] text-white py-[8px] hover:bg-white hover:text-black duration-[1s]"
+            >
+              Contact Me
+            </button>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          class="w-full lg:pt-0 pt-[30px] lg:w-[50%]"
+        >
+          <div class="w-[80%] mx-auto grid grid-cols-2 gap-3">
+            <!-- suig  -->
+            <div
+              class="bg-sky-400 duration-[0.5s] w-full rounded-md shadow shadow-sky-200 lg:h-[150px] h-[200px]"
+            >
+              <div class="grid place-content-center p-[10px]">
+                <span class="text-3xl text-white text-center">
+                  <ion-icon name="shield-checkmark-sharp"></ion-icon>
+                </span>
+              </div>
+              <div class="px-[10px]">
+                <h2 class="text-white font-semibold text-center">
+                  Frontend Dev
+                </h2>
+                <p class="text-sm font-light text-white text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laborum, voluptate.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="bg-sky-400 w-full rounded-md shadow shadow-sky-200 lg:h-[150px] h-[200px]"
+            >
+              <div class="grid place-content-center p-[10px]">
+                <span class="text-3xl text-white text-center">
+                  <ion-icon name="shield-checkmark-sharp"></ion-icon>
+                </span>
+              </div>
+              <div class="px-[10px]">
+                <h2 class="text-white font-semibold text-center">
+                  Frontend Dev
+                </h2>
+                <p class="text-sm font-light text-white text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laborum, voluptate.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="bg-sky-400 w-full rounded-md shadow shadow-sky-200 lg:h-[150px] h-[200px]"
+            >
+              <div class="grid place-content-center p-[10px]">
+                <span class="text-3xl text-white text-center">
+                  <ion-icon name="shield-checkmark-sharp"></ion-icon>
+                </span>
+              </div>
+              <div class="px-[10px]">
+                <h2 class="text-white font-semibold text-center">
+                  Frontend Dev
+                </h2>
+                <p class="text-sm font-light text-white text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laborum, voluptate.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="bg-sky-400 w-full rounded-md shadow shadow-sky-200 lg:h-[150px] h-[200px]"
+            >
+              <div class="grid place-content-center p-[10px]">
+                <span class="text-3xl text-white text-center">
+                  <ion-icon name="shield-checkmark-sharp"></ion-icon>
+                </span>
+              </div>
+              <div class="px-[10px]">
+                <h2 class="text-white font-semibold text-center">
+                  Frontend Dev
+                </h2>
+                <p class="text-sm font-light text-white text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laborum, voluptate.
+                </p>
+              </div>
+            </div>
+            <!-- suig  -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="w-full bg-slate-800 lg:h-[150px]">
+      <div class="lg:w-[90%] grid lg:grid-cols-4 grid-cols-2 w-[95%] mx-auto">
+        <div
+          class="w-full lg:shadow-none shadow-xl grid place-content-center h-[150px]"
+        >
+          <span class="font-bold text-center text-white text-3xl"
+            >1<span class="text-lg font-bold"
+              ><ion-icon name="add-sharp"></ion-icon></span
+          ></span>
+          <p class="font-light text-white text-sm">Year Experience.</p>
+        </div>
+
+        <div
+          class="w-full lg:shadow-none shadow-xl grid place-content-center h-[150px]"
+        >
+          <span class="font-bold text-center text-white text-3xl"
+            >30<span class="text-lg font-bold"
+              ><ion-icon name="add-sharp"></ion-icon></span
+          ></span>
+          <p class="font-light text-white text-sm">Work Done.</p>
+        </div>
+
+        <div
+          class="w-full lg:shadow-none shadow-xl grid place-content-center h-[150px]"
+        >
+          <span class="font-bold text-center text-white text-3xl"
+            >30<span class="text-lg font-bold"
+              ><ion-icon name="add-sharp"></ion-icon></span
+          ></span>
+          <p class="font-light text-white text-sm">Happy Clients.</p>
+        </div>
+
+        <div
+          class="w-full lg:shadow-none shadow-xl grid place-content-center h-[150px]"
+        >
+          <span class="font-bold text-center text-white text-3xl"
+            >5<span class="text-lg font-bold"
+              ><ion-icon name="add-sharp"></ion-icon></span
+          ></span>
+          <p class="font-light text-white text-sm">Team worked with.</p>
+        </div>
+        <!-- hshdg  -->
+      </div>
+    </section>
+    <section class="bg-slate-900 pt-[50px] p-[20px] w-full">
+      <h2 class="text-white text-center font-bold text-2xl">
+        More <span class="text-sky-400">About</span> Me
+      </h2>
+      <p class="font-light text-center text-neutral-500 text-sm">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere,
+        numquam.
+      </p>
+      <div class="lg:w-[90%] lg:flex w-[95%] mx-auto">
+        <div class="lg:w-[50%] w-full">
+          <h2 class="text-white font-semibold text-lg pt-[10px]">
+            My Education
+          </h2>
+          <span class="font-semibold block py-[10px] text-white text-sm"
+            >2022 - 2023</span
+          >
+          <span class="font-bold text-sky-400 text-lg">Web Development</span>
+          <p class="font-light text-sm lg:w-[90%] text-white">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas,
+            recusandae adipisci magnam tempora quidem autem officiis, earum
+            quisquam, reiciendis sunt laudantium voluptas iure nihil eaque.
+            Reiciendis reprehenderit inventore libero laboriosam?
+          </p>
+
+          <span class="font-semibold block py-[10px] text-white text-sm"
+            >2022 - 2023</span
+          >
+          <span class="font-bold text-sky-400 text-lg">Web Development</span>
+          <p class="font-light text-sm lg:w-[90%] text-white">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas,
+            recusandae adipisci magnam tempora quidem autem officiis, earum
+            quisquam, reiciendis sunt laudantium voluptas iure nihil eaque.
+            Reiciendis reprehenderit inventore libero laboriosam?
+          </p>
+        </div>
+        <div class="lg:w-[50%] w-full lg:pt-0 pt-[20px]">
+          <h2 class="text-white font-semibold text-lg">My Skills</h2>
+          <div>
+            <div class="pt-[5px]">
+              <div class="flex justify-between w-[90%]">
+                <span class="font-mono py-[5px] text-white">Html</span>
+                <span class="font-mono py-[5px] text-white">88%</span>
+              </div>
+              <div
+                class="progress relative after:rounded after:bg-sky-400 after:absolute after:h-[5px] w-[90%] h-[5px] rounded bg-neutral-500"
+              ></div>
+            </div>
+
+            <div class="pt-[5px]">
+              <div class="flex justify-between w-[90%]">
+                <span class="font-mono py-[5px] text-white">Css</span>
+                <span class="font-mono py-[5px] text-white">80%</span>
+              </div>
+              <div
+                class="progress1 relative after:rounded after:bg-sky-400 after:absolute after:h-[5px] w-[90%] h-[5px] rounded bg-neutral-500"
+              ></div>
+            </div>
+
+            <div class="pt-[5px]">
+              <div class="flex justify-between w-[90%]">
+                <span class="font-mono py-[5px] text-white">Java Script</span>
+                <span class="font-mono py-[5px] text-white">70%</span>
+              </div>
+              <div
+                class="progress3 relative after:rounded after:bg-sky-400 after:absolute after:h-[5px] w-[90%] h-[5px] rounded bg-neutral-500"
+              ></div>
+            </div>
+
+            <div class="pt-[5px]">
+              <div class="flex justify-between w-[90%]">
+                <span class="font-mono py-[5px] text-white">Php</span>
+                <span class="font-mono py-[5px] text-white">80%</span>
+              </div>
+              <div
+                class="progress4 relative after:rounded after:bg-sky-400 after:absolute after:h-[5px] w-[90%] h-[5px] rounded bg-neutral-500"
+              ></div>
+            </div>
+
+            <div class="pt-[5px]">
+              <div class="flex justify-between w-[90%]">
+                <span class="font-mono py-[5px] text-white">React</span>
+                <span class="font-mono py-[5px] text-white">60%</span>
+              </div>
+              <div
+                class="progress5 relative after:rounded after:bg-sky-400 after:absolute after:h-[5px] w-[90%] h-[5px] rounded bg-neutral-500"
+              ></div>
+            </div>
+
+            <div class="pt-[5px]">
+              <div class="flex justify-between w-[90%]">
+                <span class="font-mono py-[5px] text-white">Frameworks</span>
+                <span class="font-mono py-[5px] text-white">90%</span>
+              </div>
+              <div
+                class="progress6 relative after:rounded after:bg-sky-400 after:absolute after:h-[5px] w-[90%] h-[5px] rounded bg-neutral-500"
+              ></div>
+            </div>
+
+            <div class="pt-[5px]">
+              <div class="flex justify-between w-[90%]">
+                <span class="font-mono py-[5px] text-white">Github</span>
+                <span class="font-mono py-[5px] text-white">70%</span>
+              </div>
+              <div
+                class="progress7 relative after:rounded after:bg-sky-400 after:absolute after:h-[5px] w-[90%] h-[5px] rounded bg-neutral-500"
+              ></div>
+            </div>
+
+            <!-- jshk  -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="w-full bg-slate-800 pt-[50px] pb-[10px]">
+      <h2 class="text-white text-center font-bold text-2xl">
+        My <span class="text-sky-400">Latest</span> Projects
+      </h2>
+      <div class="lg:w-[90%] mx-auto w-[95%]">
+        <div class="grid lg:grid-cols-4 gap-3 pt-[40px] grid-cols-1">
+          <a href=""
+            ><div class="lg:w-full w-[90%] mx-auto h-[200px] rounded try"></div
+          ></a>
+          <a href=""
+            ><div class="lg:w-full w-[90%] mx-auto h-[200px] rounded try"></div
+          ></a>
+          <a href=""
+            ><div class="lg:w-full w-[90%] mx-auto h-[200px] rounded try"></div
+          ></a>
+          <a href=""
+            ><div class="lg:w-full w-[90%] mx-auto h-[200px] rounded try"></div
+          ></a>
+        </div>
+      </div>
+    </section>
+    <section class="bg-slate-800 w-full lg:h-[100vh] py-[10px] h-[80vh]">
+      <h2 class="text-white text-center pt-[20px] font-bold text-2xl">
+        What My <span class="text-sky-400">Clients</span> Says
+      </h2>
+      <div
+        class="main-background pt-[60px] flex items-center justify-center py-[10px]"
+      >
+        <div class="w-[70%] testimonial mx-auto">
+          <div
+            class="text-white testimonial-text w-full bg-slate-400 rounded-md relative lg:h-[300px] h-[450px] shadow-md"
+          >
+            <div
+              class="w-[85%] user-text active-text absolute top-[30px] lg:top-[70px] left-[20px] lg:left-[60px] text-center"
+            >
+              <div class="place-content-center py-[10px] flex mx-auto">
+                <img
+                  class="w-[60px] rounded-full h-[60px]"
+                  src="image/test3.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="text-sm font-semibold">
+                Lorem ipsum dolor test1 sit amet consectetur adipisicing elit.
+                Nulla hic eligendi suscipit inventore quas ipsa provident modi
+                quia aspernatur quae, fugit consectetur! Voluptatum suscipit
+                accusamus sequi minima, placeat est libero? Lorem ipsum dolor
+                sit amet, consectetur adipisicing elit. Repellendus, mollitia
+                adipisci incidunt quisquam officiis facere autem, hic fugiat
+                nostrum suscipit aliquid aliquam ducimus magnam reprehenderit
+                architecto. Repudiandae cupiditate aliquid dolorum?
+              </p>
+
+              <span class="font-bold text-[16px] uppercase mt-[30px]"
+                >Mr Mero , CEO BANT3.</span
+              >
+            </div>
+            <div
+              class="w-[85%] user-text absolute top-[30px] lg:top-[70px] left-[20px] lg:left-[60px] text-center"
+            >
+              <div class="place-content-center py-[10px] flex mx-auto">
+                <img
+                  class="w-[60px] rounded-full h-[60px]"
+                  src="image/test1.jpeg"
+                  alt=""
+                />
+              </div>
+              <p class="text-sm font-semibold">
+                Lorem ipsum dolor test1 sit amet consectetur adipisicing elit.
+                Nulla hic eligendi suscipit inventore quas ipsa provident modi
+                quia aspernatur quae, fugit consectetur! Voluptatum suscipit
+                accusamus sequi minima, placeat est libero? Lorem ipsum dolor
+                sit amet, consectetur adipisicing elit. Repellendus, mollitia
+                adipisci incidunt quisquam officiis facere autem, hic fugiat
+                nostrum suscipit aliquid aliquam ducimus magnam reprehenderit
+                architecto. Repudiandae cupiditate aliquid dolorum?
+              </p>
+
+              <span class="font-bold text-[16px] uppercase mt-[30px]"
+                >Mr Emekus , CEO BANT2.</span
+              >
+            </div>
+
+            <div
+              class="w-[85%] user-text absolute top-[30px] lg:top-[70px] left-[20px] lg:left-[60px] text-center"
+            >
+              <div class="place-content-center py-[10px] flex mx-auto">
+                <img
+                  class="w-[60px] rounded-full h-[60px]"
+                  src="image/test2.jpeg"
+                  alt=""
+                />
+              </div>
+              <p class="text-sm font-semibold">
+                Lorem ipsum dolor test1 sit amet consectetur adipisicing elit.
+                Nulla hic eligendi suscipit inventore quas ipsa provident modi
+                quia aspernatur quae, fugit consectetur! Voluptatum suscipit
+                accusamus sequi minima, placeat est libero? Lorem ipsum dolor
+                sit amet, consectetur adipisicing elit. Repellendus, mollitia
+                adipisci incidunt quisquam officiis facere autem, hic fugiat
+                nostrum suscipit aliquid aliquam ducimus magnam reprehenderit
+                architecto. Repudiandae cupiditate aliquid dolorum?
+              </p>
+
+              <span class="font-bold text-[16px] uppercase mt-[30px]"
+                >Mr Victor , CEO BANT31.</span
+              >
+            </div>
+
+            <div
+              class="w-[85%] user-text absolute top-[30px] lg:top-[70px] left-[20px] lg:left-[60px] text-center"
+            >
+              <div class="place-content-center py-[10px] flex mx-auto">
+                <img
+                  class="w-[60px] rounded-full h-[60px]"
+                  src="image/test4.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="text-sm font-semibold">
+                Lorem ipsum dolor test1 sit amet consectetur adipisicing elit.
+                Nulla hic eligendi suscipit inventore quas ipsa provident modi
+                quia aspernatur quae, fugit consectetur! Voluptatum suscipit
+                accusamus sequi minima, placeat est libero? Lorem ipsum dolor
+                sit amet, consectetur adipisicing elit. Repellendus, mollitia
+                adipisci incidunt quisquam officiis facere autem, hic fugiat
+                nostrum suscipit aliquid aliquam ducimus magnam reprehenderit
+                architecto. Repudiandae cupiditate aliquid dolorum?
+              </p>
+
+              <span class="font-bold text-[16px] uppercase mt-[30px]"
+                >Mr Stephen , CEO BANT10.</span
+              >
+            </div>
+            <!-- space -->
+          </div>
+
+          <div
+            class="testimonial-pic flex gap-3 pt-[20px] items-center justify-center"
+          >
+            <img
+              onclick="showReview()"
+              class="w-[40px] user-pic active-pic h-[40px] rounded-full"
+              src="image/test3.jpg"
+              alt=""
+            />
+
+            <img
+              onclick="showReview()"
+              class="w-[40px] user-pic h-[40px] rounded-full"
+              src="image/test1.jpeg"
+              alt=""
+            />
+
+            <img
+              onclick="showReview()"
+              class="w-[40px] user-pic h-[40px] rounded-full"
+              src="image/test2.jpeg"
+              alt=""
+            />
+
+            <img
+              onclick="showReview()"
+              class="w-[40px] user-pic h-[40px] rounded-full"
+              src="image/test4.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-slate-900 w-full py-[20px]">
+      <div class="lg:w-[90%] w-[95%] mx-auto py-[10px]">
+        <h2 class="text-white text-center pt-[20px] font-bold text-2xl">
+          <span class="text-sky-400">Contact</span> Me.
+        </h2>
+        <p class="font-light text-center text-neutral-500 text-sm">
+          Wanna talk? below are some fields you can use to contact me.
+        </p>
+        <form class="lg:w-[70%] w-[90%] mx-auto" action="">
+          <div class="mt-[20px]">
+            <input
+              class="w-full bg-slate-300 placeholder:text-black text-sm text-black font-mono outline-none rounded-md py-[7px] px-[10px]"
+              type="text"
+              placeholder="Name"
+            />
+          </div>
+
+          <div class="mt-[20px]">
+            <input
+              class="w-full bg-slate-300 placeholder:text-black text-sm text-black font-mono outline-none rounded-md py-[7px] px-[10px]"
+              type="email"
+              placeholder="Email"
+            />
+          </div>
+
+          <div class="mt-[20px]">
+            <textarea
+              class="w-full bg-slate-300 placeholder:text-black text-sm text-black font-mono outline-none rounded-md py-[7px] px-[10px]"
+              type="text"
+              placeholder="Message...."
+              cols="20"
+              rows="10"
+            ></textarea>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer class="bg-slate-800 w-full py-[20px]">
+      <div class="lg:w-[90%] w-[95%] mx-auto">
+        <h2 class="text-white text-center pt-[20px] font-bold text-2xl">
+          Okwa Stephen.
+        </h2>
+        <div class="lg:w-[70%] w-[90%] mx-auto">
+          <p class="font-light text-center text-white text-sm">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+            numquam, ut veritatis fugiat officia dolorem illum porro! Nesciunt
+            expedita, necessitatibus blanditiis consequatur aut dicta earum
+            adipisci sed error enim. Nobis? Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Asperiores saepe voluptates
+            voluptatibus, eos ab aut libero sit ipsa, fuga nulla beatae quas sed
+            tenetur sint tempora ex dolor quo nostrum.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <footer class="bg-slate-900 px-[10px] h-[40px] py-[10px]">
+      <p class="text-[12px] text-end text-white">
+        &copy;PizzaPal&bull;2020 All Rights Reserved
+      </p>
+    </footer>
+  </body>
+  <script>
+    const nav_links = document.querySelector(".nav_links");
+    function onToggleMenu(e) {
+      e.name = e.name === "menu" ? "close" : "menu";
+      nav_links.classList.toggle("left-[0%]");
+    }
+
+    let userTexts = document.getElementsByClassName("user-text");
+    let userPics = document.getElementsByClassName("user-pic");
+
+    function showReview() {
+      for (userPic of userPics) {
+        userPic.classList.remove("active-pic");
+      }
+      for (userText of userTexts) {
+        userText.classList.remove("active-text");
+      }
+
+      let i = Array.from(userPics).indexOf(event.target);
+      userPics[i].classList.add("active-pic");
+      userTexts[i].classList.add("active-text");
+    }
+  </script>
+  <script src="css/aos-master/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
